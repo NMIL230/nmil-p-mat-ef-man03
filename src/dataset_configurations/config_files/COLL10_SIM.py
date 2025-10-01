@@ -1,0 +1,38 @@
+# Auto-generated file containing variables and their data
+# EDIT THIS IF YOU NEED TO CHANGE HOW THE DATA SHOULD BE MODELED OR VISUALIZED
+
+##############################################MANUALLY ADDED############################################# 
+
+BLACKLIST_SET = ["304run0","304run4","306run1"]
+# BLACKLIST_SET=['303run1', '306run6', '303run5', '307run6', '306run1', '303run0', '306run2', '408run0', '303run3', '303run4', '306run5', '403run7', '306run7']
+DEFAULT_HELDOUT_SET = ["406run9", "307run0","307run5","301run2","405run1","411run4","404run5","305run3","411run2","404run8"]
+
+
+################################################################################################
+
+# Define all the metric variables to be modeled with their respective assumed distributions (types)
+METRICS_DICT = {'CorsiComplex_correct_w_len_10': {'type': 'binarySpan', 'summary_metric_label': 'CorsiComplex', 'vis_label': 'CorsiComplex'}, 'CorsiComplex_correct_w_len_2': {'type': 'binarySpan', 'summary_metric_label': 'CorsiComplex', 'vis_label': 'CorsiComplex'}, 'CorsiComplex_correct_w_len_3': {'type': 'binarySpan', 'summary_metric_label': 'CorsiComplex', 'vis_label': 'CorsiComplex'}, 'CorsiComplex_correct_w_len_4': {'type': 'binarySpan', 'summary_metric_label': 'CorsiComplex', 'vis_label': 'CorsiComplex'}, 'CorsiComplex_correct_w_len_5': {'type': 'binarySpan', 'summary_metric_label': 'CorsiComplex', 'vis_label': 'CorsiComplex'}, 'CorsiComplex_correct_w_len_6': {'type': 'binarySpan', 'summary_metric_label': 'CorsiComplex', 'vis_label': 'CorsiComplex'}, 'CorsiComplex_correct_w_len_7': {'type': 'binarySpan', 'summary_metric_label': 'CorsiComplex', 'vis_label': 'CorsiComplex'}, 'CorsiComplex_correct_w_len_8': {'type': 'binarySpan', 'summary_metric_label': 'CorsiComplex', 'vis_label': 'CorsiComplex'}, 'CorsiComplex_correct_w_len_9': {'type': 'binarySpan', 'summary_metric_label': 'CorsiComplex', 'vis_label': 'CorsiComplex'}, 'Countermanding_reaction_time': {'type': 'timing', 'summary_metric_label': 'Countermanding_reaction_time', 'vis_label': 'Countermanding'}, 'D2_hit_accuracy': {'type': 'binary', 'summary_metric_label': 'D2_hit_accuracy', 'vis_label': 'Cancellation'}, 'PasatPlus_correctly_answered': {'type': 'binary', 'summary_metric_label': 'PasatPlus_correctly_answered', 'vis_label': 'PASAT'}, 'RunningSpan_correct_w_len_2': {'type': 'binary', 'summary_metric_label': 'RunningSpan_correct_w_len_2', 'vis_label': 'RunningSpan'}, 'RunningSpan_correct_w_len_3': {'type': 'binary', 'summary_metric_label': 'RunningSpan_correct_w_len_3', 'vis_label': 'RunningSpan'}, 'SimpleSpan_correct_w_len_10': {'type': 'binarySpan', 'summary_metric_label': 'SimpleSpan', 'vis_label': 'SimpleSpan'}, 'SimpleSpan_correct_w_len_2': {'type': 'binarySpan', 'summary_metric_label': 'SimpleSpan', 'vis_label': 'SimpleSpan'}, 'SimpleSpan_correct_w_len_3': {'type': 'binarySpan', 'summary_metric_label': 'SimpleSpan', 'vis_label': 'SimpleSpan'}, 'SimpleSpan_correct_w_len_4': {'type': 'binarySpan', 'summary_metric_label': 'SimpleSpan', 'vis_label': 'SimpleSpan'}, 'SimpleSpan_correct_w_len_5': {'type': 'binarySpan', 'summary_metric_label': 'SimpleSpan', 'vis_label': 'SimpleSpan'}, 'SimpleSpan_correct_w_len_6': {'type': 'binarySpan', 'summary_metric_label': 'SimpleSpan', 'vis_label': 'SimpleSpan'}, 'SimpleSpan_correct_w_len_7': {'type': 'binarySpan', 'summary_metric_label': 'SimpleSpan', 'vis_label': 'SimpleSpan'}, 'SimpleSpan_correct_w_len_8': {'type': 'binarySpan', 'summary_metric_label': 'SimpleSpan', 'vis_label': 'SimpleSpan'}, 'SimpleSpan_correct_w_len_9': {'type': 'binarySpan', 'summary_metric_label': 'SimpleSpan', 'vis_label': 'SimpleSpan'}, 'Stroop_reaction_time': {'type': 'timing', 'summary_metric_label': 'Stroop_reaction_time', 'vis_label': 'Stroop'}}
+
+# All metrics including those ignored in RELEVANT_METRICS
+ALL_METRICS = ['CorsiComplex_correct_w_len_10', 'CorsiComplex_correct_w_len_2', 'CorsiComplex_correct_w_len_3', 'CorsiComplex_correct_w_len_4', 'CorsiComplex_correct_w_len_5', 'CorsiComplex_correct_w_len_6', 'CorsiComplex_correct_w_len_7', 'CorsiComplex_correct_w_len_8', 'CorsiComplex_correct_w_len_9', 'Countermanding_reaction_time', 'D2_hit_accuracy', 'PasatPlus_correctly_answered', 'RunningSpan_correct_w_len_2', 'RunningSpan_correct_w_len_3', 'SimpleSpan_correct_w_len_10', 'SimpleSpan_correct_w_len_2', 'SimpleSpan_correct_w_len_3', 'SimpleSpan_correct_w_len_4', 'SimpleSpan_correct_w_len_5', 'SimpleSpan_correct_w_len_6', 'SimpleSpan_correct_w_len_7', 'SimpleSpan_correct_w_len_8', 'SimpleSpan_correct_w_len_9', 'Stroop_reaction_time']
+
+# Subset of the metrics of interest
+RELEVANT_METRICS = ['CorsiComplex_correct_w_len_10', 'CorsiComplex_correct_w_len_2', 'CorsiComplex_correct_w_len_3', 'CorsiComplex_correct_w_len_4', 'CorsiComplex_correct_w_len_5', 'CorsiComplex_correct_w_len_6', 'CorsiComplex_correct_w_len_7', 'CorsiComplex_correct_w_len_8', 'CorsiComplex_correct_w_len_9', 'Countermanding_reaction_time', 'D2_hit_accuracy', 'PasatPlus_correctly_answered', 'RunningSpan_correct_w_len_2', 'RunningSpan_correct_w_len_3', 'SimpleSpan_correct_w_len_10', 'SimpleSpan_correct_w_len_2', 'SimpleSpan_correct_w_len_3', 'SimpleSpan_correct_w_len_4', 'SimpleSpan_correct_w_len_5', 'SimpleSpan_correct_w_len_6', 'SimpleSpan_correct_w_len_7', 'SimpleSpan_correct_w_len_8', 'SimpleSpan_correct_w_len_9', 'Stroop_reaction_time']
+
+# Subset of the metrics of interest
+SUMMARIZED_METRICS = ['CorsiComplex', 'Stroop_reaction_time', 'RunningSpan_correct_w_len_2', 'Countermanding_reaction_time', 'SimpleSpan', 'RunningSpan_correct_w_len_3', 'D2_hit_accuracy', 'PasatPlus_correctly_answered']
+
+# Labels for visualization purposes
+ALL_METRICS_MOMENTS_LABEL_DICT = {'CorsiComplex_param1': 'Corsi Complex psiTheta', 'CorsiComplex_param2': 'Corsi Complex psiSigma', 'Countermanding_reaction_time_param1': 'Countermanding mean', 'Countermanding_reaction_time_param2': 'Countermanding std', 'D2_hit_accuracy_param1': 'Cancellation', 'PasatPlus_correctly_answered_param1': 'PASAT', 'RunningSpan_correct_w_len_2_param1': 'Running Span 2', 'RunningSpan_correct_w_len_3_param1': 'Running Span 3', 'SimpleSpan_param1': 'Corsi Simple psiTheta', 'SimpleSpan_param2': 'Corsi Simple psiSigma', 'Stroop_reaction_time_param1': 'Stroop mean', 'Stroop_reaction_time_param2': 'Stroop std'}
+
+# Reverse mapping of the summarized metrics to types
+SUMMARIZED_METRICS_METRIC_TYPES = {'CorsiComplex': 'binarySpan', 'Countermanding_reaction_time': 'timing', 'D2_hit_accuracy': 'binary', 'PasatPlus_correctly_answered': 'binary', 'RunningSpan_correct_w_len_2': 'binary', 'RunningSpan_correct_w_len_3': 'binary', 'SimpleSpan': 'binarySpan', 'Stroop_reaction_time': 'timing'}
+
+SUMMARIZED_METRICS_MAIN_MOMENTS_LABEL_DICT = {'CorsiComplex': 'Corsi Complex', 'Countermanding_reaction_time': 'Countermanding', 'D2_hit_accuracy': 'Cancellation', 'PasatPlus_correctly_answered': 'PASAT', 'RunningSpan_correct_w_len_2': 'Running Span 2', 'RunningSpan_correct_w_len_3': 'Running Span 3', 'SimpleSpan': 'Corsi Simple', 'Stroop_reaction_time': 'Stroop'}
+
+VIS_ORDER_PREFERENCE_METRICS_MAIN_ONLY = ["Countermanding_reaction_time","Stroop_reaction_time", "D2_hit_accuracy","PasatPlus_correctly_answered",
+                        'CorsiComplex',"SimpleSpan",'RunningSpan_correct_w_len_2','RunningSpan_correct_w_len_3']
+
+VIS_ORDER_PREFERENCE_METRICS_ALL = ['CorsiComplex_param1',"SimpleSpan_param1","Stroop_reaction_time_param1","Countermanding_reaction_time_param1",
+                                    "CorsiComplex_param2","SimpleSpan_param2","Stroop_reaction_time_param2","Countermanding_reaction_time_param2",
+                        "D2_hit_accuracy_param1","PasatPlus_correctly_answered_param1", "RunningSpan_correct_w_len_2_param1","RunningSpan_correct_w_len_3_param1"]

@@ -1,0 +1,33 @@
+name: nmil-dlvm-nn
+channels:
+  - conda-forge           # This channel has most of the packages you'll need to install 
+dependencies:
+  - python=3.9          
+  - ipykernel            
+  - ipython
+  - pip                   # Necessary if you need to install packages through pip
+  - pip:
+      - torch
+      - torchvision
+      - numpy
+      - pandas
+      - scikit-learn
+      - matplotlib
+      - scipy
+      - requests
+      - jupyter
+      - ipykernel
+      - pillow
+      - tqdm
+      - beautifulsoup4
+      - aiohttp
+      - protobuf
+      - pyyaml
+      - typing-extensions
+      - pycryptodome
+      - black
+      - autopep8
+      - pingouin
+      - python-pptx
+      - PyPDF2
+      - gpytorch

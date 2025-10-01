@@ -1,0 +1,11 @@
+{
+"METADATA": {
+    "description": "Metadata describing the main data fields",
+    "fields": {
+        "DATASET": "The dataset to be used for the current session. A corresponding <DATASET>.py file must be defined in dataset_configurations folder",
+        "USE_GPU_DEVICE": "Indicates whether GPU device is used (yes/no) if available"
+    }
+},
+"DATASET":"COLL10_SIM",
+"USE_GPU_DEVICE":"yes"
+}
