@@ -13,7 +13,7 @@ LOW_LEVEL_SCRIPT = REPO_ROOT / LOW_LEVEL_SCRIPT_RELATIVE
 DEFAULT_DALE_RUN_ID = "exp_c6_2d_dale_ps2"
 DEFAULT_MAX_LENGTH_TO_PLOT = 100
 DEFAULT_PERFORMANCE_TRACKING_BASEPATH = (
-    REPO_ROOT / "src" / "results" / "re-2d-3d-full-final"
+    REPO_ROOT / "src" / "results" / "dale_sim_runs"
 )
 FIGURE_ID = 8
 

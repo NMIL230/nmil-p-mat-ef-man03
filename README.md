@@ -15,10 +15,11 @@ commands below from the repository root so relative paths resolve correctly.
 - Optional: install CUDA tooling if you plan to use a GPU; the defaults run on CPU.
 
 ## 2. Data Checklist
-Download the project bundle from OSF and place the
+Download the required data from [OSF](https://osf.io/ynbdr/files/osfstorage) and place the
 contents exactly as follows:
 - `data` → `src/data/` 
-- `results/` → `src/results/`
+- extract the zip files (sim_runs_part_A.zip and 
+ sim_runs_part_B.zip) and place their contents into `results/dale_sim_runs` into `src/results/dale_sim_runs`.
 - `analysis/<subfolders>` → matching paths under `src/analysis/`
 
 Once those folders exist the figure scripts will find the required inputs automatically.
@@ -42,3 +43,10 @@ Each command writes `Figure_0X.(pdf|png)` to `manuscript_figures/generated_figur
 python manuscript_figures/generate_all.py
 ```
 Add `--dry-run` to confirm all input files exist before running, or `--continue-on-error`
+
+## 5. Troubleshooting
+- Missing OSF data assets – run `python manuscript_figures/generate_all.py --dry-run` to list absent inputs, then confirm the OSF archives are fully extracted into `src/data/`, `src/results/dale_sim_runs/`, and the matching `src/analysis/` subfolders.
+- Environment activation failures – ensure `conda activate nmil-dlvm-nn` succeeds; if the environment is missing, recreate it with `conda env create -f src/environment.yml`.
+- CUDA-related crashes – skip GPU options and stay on the default CPU setup, or reinstall matching CUDA toolkit and drivers before rerunning the figure commands.
+- Figure generation stops early – use `--continue-on-error` to identify the failing figure, then rerun the specific `--figures figX` invocation once the underlying data or model configuration is fixed.
+- Large intermediate caches – delete stale outputs under `manuscript_figures/generated_inputs/` when they grow too large; the scripts rebuild them automatically on the next execution.

@@ -10,7 +10,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 LOW_LEVEL_SCRIPT_RELATIVE = Path("src/analysis/dale_syn_data/generate_plots_Figure_06.py")
 LOW_LEVEL_SCRIPT = REPO_ROOT / LOW_LEVEL_SCRIPT_RELATIVE
 
-DEFAULT_RESULT_DIR = REPO_ROOT / "src" / "results" / "re-2d-3d-full-final"
+DEFAULT_RESULT_DIR = REPO_ROOT / "src" / "results" / "dale_sim_runs"
 DEFAULT_OUTPUT_DIR = (
     REPO_ROOT
     / "src"

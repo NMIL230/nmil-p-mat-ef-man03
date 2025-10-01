@@ -1,0 +1,52 @@
+
+*.l
+# Ignore .pdf files
+*.pdf
+/result
+/analysis/dale_syn_data/result
+/analysis/dale_syn_data/plot
+/analysis/dale_syn_data/plot_data
+/analysis/dale_syn_data/shell_scripts/logs
+# Ignore image files
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.log
+**/RAW_JSON_FILES/
+**/wandb/
+**/.ipynb_checkpoints/
+**/__pycache__/
+**/visualization/presentations/
+**/visualization/outputs/
+**/visualization/temp/
+**/visualization/mle
+**/generated_data/
+.DS_Store
+**/plots/
+**/.vscode/
+
+# ignore .pt files in analysis/ directory
+# **/analysis/**/*.pt
+# ignore .csv files in analysis/ directory
+**/analysis/**/*.csv
+# ignore .log files in analysis/ directory
+**/analysis/**/*.log
+
+# ignore results/ directory
+**/results/
+
+# ignore large files in data/ directory
+# **/data/**/*.pt
+**/data/**/*.csv
+
+# ignore .* files in the root directory except .gitignore
+.DS_Store
+.cursor/
+.virtual_documents/
+.vscode/
+
+# ignore .txt  files
+*.txt
+
