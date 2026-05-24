@@ -3,10 +3,8 @@
 # Ignore .pdf files
 *.pdf
 /result
-/analysis/dale_syn_data/result
-/analysis/dale_syn_data/plot
-/analysis/dale_syn_data/plot_data
-/analysis/dale_syn_data/shell_scripts/logs
+/artifacts/
+/data
 # Ignore image files
 *.png
 *.jpg
